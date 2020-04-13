@@ -1,0 +1,7 @@
+.idea/
+vendor/
+web/.cache/
+web/dist/
+web/node_modules/
+.env
+!.env.dist
