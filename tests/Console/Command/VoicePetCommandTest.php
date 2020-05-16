@@ -1,5 +1,5 @@
 <?php
-namespace App\Tests\Console\Command;
+namespace Tests\Console\Command;
 
 use App\Console\Command\VoiceFozzyPetCommand;
 use PHPUnit\Framework\TestCase;
@@ -7,7 +7,7 @@ use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Tester\CommandTester;
 use Symfony\Component\Dotenv\Dotenv;
 
-class TestAddFozzyPetCommand extends TestCase
+class VoicePetCommandTest extends TestCase
 {
     /** @var CommandTester */
     private $commandTester;
